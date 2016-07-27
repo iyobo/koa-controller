@@ -1,4 +1,10 @@
-# [koa](http://koajs.com/)-controller
+# [koa](http://koajs.com/)-controller (Space Version)
+
+## Iyobo's Note:
+In this fork , I replaced the '#' controller/action delimetter with empty space (i.e. to: 'controller action') and also removed unneccessary, restrictive code to determine if a route is a redirect vs a controller.
+These changes allow for more flexible redirection routes, as you previously could not make redirects like '/dashboard#messages' due to fragment urls being previously treated as controllers. 
+
+You don't even need to add root domains or domain protocols to redirects anymore e.g http://domain.com, https://, etc.
 
 ![Build Status](https://travis-ci.org/xpepermint/koa-controller.svg?branch=master)&nbsp;[![NPM version](https://badge.fury.io/js/koa-controller.svg)](http://badge.fury.io/js/koa-controller)&nbsp;[![Dependency Status](https://gemnasium.com/xpepermint/koa-controller.svg)](https://gemnasium.com/xpepermint/koa-controller)
 
