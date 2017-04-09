@@ -1,5 +1,5 @@
 {
-  "name": "koa-controller",
+  "name": "koa-controller-jollof",
   "version": "1.1.0",
   "description": "Middleware for Koa which handles the routing of your application were related functionalities are splitted into routes, controllers and constraints.",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/xpepermint/koa-controller.git"
+    "url": "git://github.com/iyobo/koa-controller.git"
   },
   "keywords": [
     "koa",
